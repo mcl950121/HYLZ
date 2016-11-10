@@ -27,5 +27,6 @@ angular.module('yoApp')
 			$scope.index=e
 		}
 		
+   
   });
 
