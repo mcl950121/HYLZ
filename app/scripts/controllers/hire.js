@@ -8,7 +8,7 @@
  * Controller of the yoApp
  */
 angular.module('yoApp')
-  .controller('main', function () {
+  .controller('hire', function () {
    
   });
 

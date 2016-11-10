@@ -9,7 +9,7 @@
  */
 angular.module('yoApp')
 	.controller('main', function() {
-	});
+
 var index = 0;
 var autoChange = setInterval(function() {
 	if(index < $(".frame li").length - 1) {
@@ -41,3 +41,4 @@ function changeTo(num) {
 	$(".frame_btn").find(".fBtn").removeClass("indexOn").eq(num).addClass("indexOn");
 }
 
+	});
