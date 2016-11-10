@@ -9,15 +9,15 @@
  * Main module of the application.
  */
 angular
-    .module('yoApp', ['ui.router']).config(function($stateProvider){
+    .module('yoApp', ['ui.router']).config(function($stateProvider,$urlRouterProvider){
   	    $stateProvider.state("main",{
 	  		url:"/main",
 	  		templateUrl:'../views/main.html',
 	  		controller:"main"
 	  	}).state("about",{
 	  		url:"/about",
-	  		templateUrl:'../views/about.html',
-	  		controller:"about"
+	  		templateUrl:'../views/about.html'
+	  		//controller:"about"
 	  	}).state("case",{
 	  		url:"/case",
 	  		templateUrl:'../views/case.html',
@@ -31,6 +31,6 @@ angular
 	  		templateUrl:'../views/insight.html',
 	  		controller:"insight"
 	  	})
-	  	
+  	$urlRouterProvider.when('','/about');
 	  	
     });
