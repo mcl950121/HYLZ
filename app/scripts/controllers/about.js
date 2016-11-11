@@ -7,10 +7,7 @@
  * # MainCtrl
  * Controller of the yoApp
  */
-angular.module('yoApp')
-
-  .controller('main', function () {
-	  
+angular.module('yoApp').controller('about', function () {
 	var pw=$('.lunbo #ull').width();
 	  var shang=$('#r-s .tu1');
 	  var xia=$('#r-s .tu2');
