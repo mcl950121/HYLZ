@@ -19,7 +19,7 @@ a:hover{text-decoration:none;}
 .apply_l{ width: 104px; height: 34px; float: left; line-height: 34px; text-align: center;}
 .apply_c{ float: right; width: 2px; height: 15px; display: block; position: absolute; left: 105px; top: 11px;}
 .apply_r{ float: right; width: 23px; height: 16px; display: block; position: absolute; right: 47px; top: 10px;}
-.hire_footer{ width: 57px; height: 289px; border: 1px solid #ccc; position: absolute; right: 0; top: 352px;}
+.hire_footer{ width: 57px; height: 289px; border: 1px solid #ccc; position: fixed; right: 0; bottom: 0;}
 .hire_footer ul li{ height: 57px; border-bottom: 1px solid #ccc; text-align: center; line-height: 57px; color: #a2a2a3;}
 .arrow{ padding-left: 20px; padding-top: 25px;}
 .now{ background: #2d2f30;}
