@@ -63,6 +63,7 @@ li{
 	height:650px;
 	position:absolute;
 	overflow: hidden;	
+	z-index:99;
 }
 #mouseHand{
 	top:0;
@@ -80,6 +81,7 @@ li{
 	overflow: hidden;	
 	background:url(../images/sucai.png) -1983px -255px no-repeat;
 	cursor: pointer;
+	cursor:pointer;
 }
 .nav-open2{
 	position:absolute;
