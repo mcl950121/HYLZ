@@ -1,1 +1,28 @@
-h1{color: red;}
+body{margin:0;padding:0;font-family:"微软雅黑"; background: #f6f7fa;}
+*{margin:0px;padding:0px}
+ol,ul,li,p,img,h1,h2,h3,h4,h5,h6,font{display:block;}
+ol,ul,li{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+
+.big_hire{ width: 88%; height: 367px; margin: 0 auto; position: relative; margin-top: 130px;}
+.hire_l{ width: 568px; height: 367px; float: left;  position: relative;}
+.hire_r{ width: 571px; height: 367px; float: right; border-left: 1px solid #ccc; border-right: 1px solid #ccc;}
+.hire_img{ width: 430px; height: 367px; overflow: hidden; display: block; margin-left: 137px;}
+.hire_r ul{ width: 571px; height: 367px; overflow-y: scroll; padding-left: 50px;}
+.hire_r ul li{ line-height: 61px; border-bottom: 1px solid #c9c9c9; width: 465px; position: relative; cursor: pointer;}
+.sublist{ border: 0;}
+.sanjiao{ display: block; position: absolute; right: 10px; top: 30px;}
+.entrance{ width: 381px; height: 300px; border: 1px solid #ccc; display: block; position: absolute; left: 0px; top: 55px;}
+.entrance h1{ display: block; height: 122px; color: #4c4c4d; font-size: 24px; margin-left: 20px; line-height: 32px; margin-top: 25px;}
+.apply{ display: block; width: 210px; height: 34px; border: 1px solid #ccc; position: relative; margin-bottom: 30px;}
+.apply_l{ width: 104px; height: 34px; float: left; line-height: 34px; text-align: center;}
+.apply_c{ float: right; width: 2px; height: 15px; display: block; position: absolute; left: 105px; top: 11px;}
+.apply_r{ float: right; width: 23px; height: 16px; display: block; position: absolute; right: 47px; top: 10px;}
+.hire_footer{ width: 57px; height: 289px; border: 1px solid #ccc; position: absolute; right: 0; top: 352px;}
+.hire_footer ul li{ height: 57px; border-bottom: 1px solid #ccc; text-align: center; line-height: 57px; color: #a2a2a3;}
+.arrow{ padding-left: 20px; padding-top: 25px;}
+.now{ background: #2d2f30;}
+.entrance_l{ background: #272b2c; display: block; width: 134px; height: 57px; position: absolute; top: 220px; left: 30px; color: white; font-size: 14px; text-align: center; line-height: 57px;} 
+.entrance_r{ background: #fff; display: block; width: 134px; height: 57px; position: absolute; top: 220px; left: 170px; color: black; font-size: 14px; text-align: center; line-height: 57px; border: 1px solid #ccc;} 
+
