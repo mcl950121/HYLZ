@@ -38,9 +38,9 @@ angular
 			$('.nav-open2').show();
 			$('.nav-content').addClass("nav-active");
 		})
-		$('.nav-open2').click(function() {
-			$('.nav-open1').show();
-			$('.nav-open2').hide();
-			$('.nav-content').removeClass("nav-active");
-		})
+	$('.nav-open2').click(function() {
+		$('.nav-open1').show();
+		$('.nav-open2').hide();
+		$('.nav-content').removeClass("nav-active");
+	})
 

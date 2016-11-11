@@ -16,7 +16,7 @@
  			<li ng-repeat="i in data">
  				<span ng-click="isshow($index)" style="font-size: 16px;">{{i.nav}}</span>
 				<ol ng-if="i.subnav" ng-show="$index==index">
-					<li ng-repeat="x in i.subnav" style="border: none;">{{x.snav}}</li>
+					<li ng-repeat="x in i.subnav" style="border: none; line-height: 27px;">{{x.snav}}</li>
 				</ol>
 				<i class="sanjiao"><img src="../images/sanjiao.png"/></i>
 				<span class="apply" ng-show="$index==index">

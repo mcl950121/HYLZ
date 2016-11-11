@@ -5,7 +5,7 @@ ol,ul,li{list-style:none;}
 a{text-decoration:none;}
 a:hover{text-decoration:none;}
 
-.big_hire{ width: 88%; height: 367px; margin: 0 auto; position: relative;}
+.big_hire{ width: 88%; height: 367px; margin: 0 auto; position: relative; margin-top: 130px;}
 .hire_l{ width: 568px; height: 367px; float: left;  position: relative;}
 .hire_r{ width: 571px; height: 367px; float: right; border-left: 1px solid #ccc; border-right: 1px solid #ccc;}
 .hire_img{ width: 430px; height: 367px; overflow: hidden; display: block; margin-left: 137px;}
@@ -19,7 +19,7 @@ a:hover{text-decoration:none;}
 .apply_l{ width: 104px; height: 34px; float: left; line-height: 34px; text-align: center;}
 .apply_c{ float: right; width: 2px; height: 15px; display: block; position: absolute; left: 105px; top: 11px;}
 .apply_r{ float: right; width: 23px; height: 16px; display: block; position: absolute; right: 47px; top: 10px;}
-.hire_footer{ width: 57px; height: 289px; border: 1px solid #ccc; position: absolute; bottom: 0; right: 0;}
+.hire_footer{ width: 57px; height: 289px; border: 1px solid #ccc; position: absolute; right: 0; top: 352px;}
 .hire_footer ul li{ height: 57px; border-bottom: 1px solid #ccc; text-align: center; line-height: 57px; color: #a2a2a3;}
 .arrow{ padding-left: 20px; padding-top: 25px;}
 .now{ background: #2d2f30;}
