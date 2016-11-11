@@ -63,7 +63,7 @@ li{
 	height:650px;
 	position:absolute;
 	overflow: hidden;	
-	z-index:99;
+	/*z-index:99;*/
 }
 #mouseHand{
 	top:0;
