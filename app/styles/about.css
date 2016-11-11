@@ -10,15 +10,16 @@ img{border:0;margin:0px;padding:0px;}
 .jlunbo{width:82%;height:100%;float:left;margin-left:6%;}
 #jull {width:100%;height:515px;overflow:hidden;}
 #jull .jj_a{width:100%;height:515px;display:block;float:left;}
-div.ylogo {width:48%;height:515px;float:left;}
+div.ylogo {width:50%;height:515px;float:left;}
 .jr_1,.jr_2,.jr_3,.jr_4{width:100%;height:129px;display:block;}
 .ja_right {border-right:1px solid #c9c9c9;}
 .jr_1 li , .jr_2 li , .jr_3 li , .jr_4 li{border-bottom:1px solid #c9c9c9;float:left;width:33%;height:129px;cursor:pointer;}
 .jr_1 li img , .jr_2 li img , .jr_3 li img , .jr_4 li img{ -webkit-filter: grayscale(100%);filter: grayscale(100%);width:100%;height:129px;display:block;}
 .jr_1 li img:hover , .jr_2 li img:hover , .jr_3 li img:hover , .jr_4 li img:hover { -webkit-filter: grayscale(0); filter: grayscale(0);transition:0.8s all ease;}
-.yright {width:48%;height:515px;float:left;border-left:1px solid #c9c9c9;margin-left:4%;}
+
+.yright {width:42%;height:515px;float:left;border-left:1px solid #c9c9c9;margin-left:7%;}
 .tcontent {width:90%;height:515px;margin-left:10%;}
-.tcontent i {margin-top:40px;width:30%;height:65px;display:block;}
+.tcontent i {margin-top:35px;width:30%;height:65px;display:block;}
 .tcontent h2 {width:100%;height:60px;font-size:24px;color:#2d2f30;font-weight:300;}
 .tcontent b {width:100%;height:40px;display:block;}
 .tcontent font {width:100%;height:330px;font-size:14px;color:#2d2f30;text-indent:20px;line-height:23px;}
