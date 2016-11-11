@@ -43,4 +43,3 @@ angular
 		$('.nav-open2').hide();
 		$('.nav-content').removeClass("nav-active");
 	})
-
