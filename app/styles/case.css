@@ -3,7 +3,7 @@ ul li{list-style: none;}
 .w-box{width: 1090px;
        height: 515px;
        /* background: pink; */
-       margin: 55px auto auto auto}
+       margin: 55px auto auto auto;}
 .w-tu1{width: 177px;height: 515px;float: left;}
 .w-t{width: 177px;height: 126px;}
 .w-t1{width: 177px;height: 126px;margin-top: 4px;}
