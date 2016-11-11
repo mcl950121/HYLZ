@@ -1,16 +1,210 @@
-body{margin:0px;padding:0px;font-family:"微软雅黑";font-size:12px;}
-*{margin:0px;padding:0px}
-ol,ul,li,p,img,h1,h2,h3,h4,h5,h6,span,font{display:block;}
-ol,ul,li{list-style:none;}
-a{text-decoration:none;}
-a:hover{text-decoration:none;}
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+.box{
+	width:100%;
+	height:100%;
+	position:relative;	
+}
+.content-bg{
+	width:100%;
+	height:100%;
+	position:absolute;	
+}
+.top{
+	width:100%;
+	height:36px;
+	position: fixed;
+	top:0;
+	z-index: 99;
+}
+/*顶端彩色条*/
+.topcolor{
+	width:100%;
+	height:3px;
+	position:absolute;
+}
+.topcolor p{
+	width:20%;
+	height:100%;
+	float:left;
+}
+.head{
+	width:100%;	
+	height:30px;
+	top:3px;
+	position:absolute;	
+}
+/*logo*/
+#logo{
+	margin-top:30px;
+	margin-left:50px;
+	width:16.5%;
+	max-width:116px;
+	float:left;
+}
+.logo{
+	position:absolute;
+	display:inline-block;
+	width:116px;
+	height:35px;
+	background:url(../images/sucai.png) -979px -359px no-repeat;	
+	overflow:hidden;		
+}
+/*导航*/
+#nav{
+	top:0;
+	right:0;	
+	width:255px;
+	height:650px;
+	position:absolute;
+	overflow: hidden;	
+	z-index:99;
+}
+#mouseHand{
+	top:0;
+	right:0;
+	z-index:999;
+	position:absolute;
+}
+.nav-open1{
+	position:absolute;
+	width:53px;
+	height:53px;
+	display:block;
+	top:0;
+	right:0;
+	overflow: hidden;	
+	background:url(../images/sucai.png) -1983px -255px no-repeat;
+	cursor:pointer;
+}
+.nav-open2{
+	position:absolute;
+	width:53px;
+	height:53px;
+	display:block;
+	top:0;
+	right:0;
+	overflow: hidden;	
+	background:url(../images/sucai.png) -1983px -308px no-repeat;
+}
 
-.logo{width:100%;height:110px;background:#fff;}
-.nav{width:100%;height:50px;background:#1c2f67;}
-.nav ul{width:900px;height:50px;margin-left:75px;}
-.nav ul li{float:left;display: block;}
-.nav ul li a{display: block;font-size: 14px;line-height:50px;padding:0 60px;color:#fff;cursor: pointer;}
-.nav ul li a:hover{color:#fff;background:#d7375a}
+#english-ico{
+	top:1px;
+	right:60px;
+	z-index:9;
+	position:absolute;	
+}
+.eng-link{
+	position: absolute;
+	width:41px;
+	height:41px;
+	display:block;
+	top:5px;
+	right:5px;
+	background:url(../images/sucai.png) -1997px -43px no-repeat;
+}
+.eng-link:hover{
+	position: absolute;
+	width:41px;
+	height:41px;
+	display:block;
+	top:5px;
+	right:5px;
+	background:url(../images/sucai.png) -1997px -84px no-repeat;
+}
+.nav-content{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background:rgba(45,47,48,0.9);
+	left:255px;
+	top:0;
+	z-index:99;	
+	transition:2s all ease;
+	-webkit-transition:0.5s all ease;	
+}
+.nav-active{		
+	width:100%;
+	height:100%;
+	position:absolute;
+	background:rgba(45,47,48,0.9);
+	left:0;
+	top:0;
+	z-index:99;	
+	transition:2s all ease;
+	-webkit-transition:0.5s all ease;		
+}
+.nav-btn{
+	width:327px;
+	height:321px;
+	/*background:pink;*/
+	position:absolute;
+	top:109.5px;
+	left:50px;
+}
+.nav-btn li{
+	padding-bottom: 20px;
+	list-style: none;
+	display:list-item;
+	text-align: match-parent;
+}
+.nav-btn li span{
+	width:326px;
+	height:40px;
+	display:inline-block;
+	overflow: hidden;
+	cursor:pointer;
+}
+.nav-one{	
+	background:url(../images/sucai.png) -653px -360px no-repeat;	
+		
+}
+.nav-two{	
+	background:url(../images/sucai.png) -964px -319px no-repeat;
+	opacity:0.4;
+			
+}
+.nav-three{	
+	background:url(../images/sucai.png) -0px -360px no-repeat;
+	opacity:0.4;		
+}
+.nav-fore{	
+	background:url(../images/sucai.png) -327px -360px no-repeat;	
+	opacity:0.4;	
+}
+.nav-five{	
+	background:url(../images/sucai.png) -638px -319px no-repeat;
+	opacity:0.4;		
+}
+.control{
+	width:100%;
+	height:65px;
+	position:absolute;
+	bottom:0;	
+	left:0;
+	margin:0;
+	background:#2D2F30;
+}
+.control-link{
+	position:absolute;
+	top:25px;
+	left:70px;
+	width:108px;
+	height:14px;
+	background:url(../images/sucai.png) -1095px -390px no-repeat;
+}
 
-.box{width:100%;height:auto;}
-.footer{width:100%;height:170px;background:#1c2f67;}
+
+.content-box{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background:pink;
+}
