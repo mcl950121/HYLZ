@@ -1,23 +1,45 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+<div class="big_hire">
+	 <div class="hire_l">
+	 		<span class="hire_img">
+	 			<img src="../images/hire_intro.jpg" />
+	 		</span>
+	 		<span class="entrance">
+	 			<h1>华扬圈人计划<br />
+	 				新互联网时代，你需要有备而来!
+	 			</h1>
+	 		</span>
+	 		<span class="entrance_l">社会招聘</span>
+	 		<span class="entrance_r">校招入口</span>
+	 </div>
+	 <div class="hire_r">
+ 		<ul>
+ 			<li ng-repeat="i in data">
+ 				<span ng-click="isshow($index)" style="font-size: 16px;">{{i.nav}}</span>
+				<ol ng-if="i.subnav" ng-show="$index==index">
+					<li ng-repeat="x in i.subnav" style="border: none; line-height: 27px;">{{x.snav}}</li>
+				</ol>
+				<i class="sanjiao"><img src="../images/sanjiao.png"/></i>
+				<span class="apply" ng-show="$index==index">
+					<p class="apply_l">我要申请</p>
+					<i class="apply_c">
+						<img src="../images/line.png" />
+					</i>
+					<i class="apply_r">
+						<img src="../images/letter.png" />
+					</i>
+				</span>
+ 			</li>
+ 		</ul>
+	 </div>
+</div>
+<div class="hire_footer">
+	<ul>
+		<li class="arrow"><img src="../images/down_arrow.png"/></li>
+		<li>职位</li>
+		<li>城市</li>
+		<li class="now">全国</li>
+		<li><a ui-sref="company">更多</a></li>
+	</ul>
 </div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>

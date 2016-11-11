@@ -33,6 +33,7 @@ angular
 		})
 		$urlRouterProvider.when('', '/main');
 	});
+
 $('.nav-open1').click(function() {
 	$('.nav-open1').hide();
 	$('.nav-open2').show();
@@ -83,7 +84,7 @@ $('.nav-fore').click(function() {
 	$('.nav-open2').hide();
 	$('.nav-content').removeClass("nav-active");
 })
-
+	
 $('.nav-five').click(function() {
 	$('.nav-five').removeClass("opa");
 	$('.nav-one').addClass("opa");
