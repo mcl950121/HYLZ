@@ -34,6 +34,7 @@ angular
 		$urlRouterProvider.when('', '/main');
 	});
 
+
 $('.nav-open1').click(function() {
 	$('.nav-open1').hide();
 	$('.nav-open2').show();
@@ -95,3 +96,4 @@ $('.nav-five').click(function() {
 	$('.nav-open2').hide();
 	$('.nav-content').removeClass("nav-active");
 })
+
