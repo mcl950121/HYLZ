@@ -11,7 +11,7 @@
 angular
     .module('yoApp', ['ui.router']).config(function($stateProvider){
   	    $stateProvider.state("main",{
-	  		url:"main",
+	  		url:"/main",
 	  		templateUrl:'../views/main.html',
 	  		controller:"main"
 	  	}).state("about",{
