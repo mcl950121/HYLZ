@@ -20,10 +20,60 @@
     <link rel="stylesheet" href="styles/insight.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="yoApp">
-		<div ui-view="">
-			
-		</div>
+  <body ng-app="yoApp">		
+		  <div class="box">
+			  <img src="../images/bg1.png" alt="bg" class="content-bg" />	
+			<div class="top">
+				<!--顶端彩色条-->
+				<div class="topcolor">
+					<p style="background:#D2861F"></p>
+					<p style="background:#9EC56C"></p>
+					<p style="background:#BF5446"></p>
+					<p style="background:#499BCD"></p>
+					<p style="background:#93579A"></p>
+				</div>
+				<div class="head">
+					<!--logo-->
+					<div id="logo">
+						<span class="logo"></span>
+					</div>
+					
+					<!--导航-->
+					<div id="nav">
+						<div id="mouseHand">
+							<span class="nav-open1"></span>
+							<span class="nav-open2" style="display:none"></span>
+						</div>	
+						<div id="english-ico">
+		                    <a href="#" class="eng-link"></a>						
+						</div>
+																							
+						<div class="nav-content">
+							<ul class="nav-btn">
+						<li><span class="nav-one" ui-sref="main"></span></li>
+						<li><span class="nav-two" ui-sref="about"></span></li>
+						<li><span class="nav-three" ui-sref="case"></span></li>
+						<li><span class="nav-fore" ui-sref="hire"></span></li>
+						<li><span class="nav-five" ui-sref="insight"></span></li>		
+							</ul>
+							
+							<p class="control">
+								<span class="control-link"></span>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!--切换区-->
+			<div ui-view="" class="content-box">
+			    
+		  </div>
+		  
+			</div>
+
+		
+  	
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->

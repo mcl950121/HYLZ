@@ -1,4 +1,5 @@
 
+
 body{margin:0px;padding:0px;border:none;font-family:"微软雅黑";font-size:12px;}
 div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,span{padding:0px; margin:0px;}   
 ol,ul,li {list-style:none;}
@@ -9,7 +10,7 @@ img{border:0;margin:0px;padding:0px;}
 .lunbo{width:82%;height:515px;float:left;margin-left:6%;}
 #ull {width:100%;height:515px;overflow:hidden;}
 #ull .jj_a{width:100%;height:515px;display:block;float:left;}
-div.logo {width:48%;height:515px;float:left;}
+div.ylogo {width:48%;height:515px;float:left;}
 .r_1,.r_2,.r_3,.r_4{width:100%;height:129px;display:block;}
 .a_right {border-right:1px solid #c9c9c9;}
 .r_1 li , .r_2 li , .r_3 li , .r_4 li{border-bottom:1px solid #c9c9c9;float:left;width:33%;height:129px;cursor:pointer;}
@@ -26,11 +27,12 @@ div.logo {width:48%;height:515px;float:left;}
 
 
 .zui-r {width:4%;height:515px;float:left;margin-left:8%;}
-#r-s {width:40px;height:59px;display:block;background:url(../images/xian.jpg);background-size:100% 100%;position:fixed;top:55px;}
+#r-s {width:40px;height:59px;display:block;background-size:100% 100%;position:fixed;top:55px;}
 #r-s li a {width:100%;height:30px;margin-top:5px;display:block;}
 
 
 .r-x {width:40px;height:166px;display:block;position:fixed;bottom:5px;}
+.tu1,.tu2{ z-index:1900;}
 .xia {width:57px;height:57px;border:1px solid #c9c9c9;border-right:0;cursor:pointer;}
 .xia img {margin-top:20px;margin-left:19px;}
 .xia:hover {background:#2d2f30;}
