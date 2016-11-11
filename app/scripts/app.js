@@ -49,6 +49,8 @@ $('.nav-one').click(function() {
 	$('.nav-three').addClass("opa");
 	$('.nav-fore').addClass("opa");
 	$('.nav-five').addClass("opa");
+	$('.nav-open1').show();
+	$('.nav-open2').hide();
 	$('.nav-content').removeClass("nav-active");
 })
 $('.nav-two').click(function() {
@@ -57,6 +59,8 @@ $('.nav-two').click(function() {
 	$('.nav-three').addClass("opa");
 	$('.nav-fore').addClass("opa");
 	$('.nav-five').addClass("opa");
+	$('.nav-open1').show();
+	$('.nav-open2').hide();
 	$('.nav-content').removeClass("nav-active");
 })
 $('.nav-three').click(function() {
@@ -65,6 +69,8 @@ $('.nav-three').click(function() {
 	$('.nav-two').addClass("opa");
 	$('.nav-fore').addClass("opa");
 	$('.nav-five').addClass("opa");
+	$('.nav-open1').show();
+	$('.nav-open2').hide();
 	$('.nav-content').removeClass("nav-active");
 })
 $('.nav-fore').click(function() {
@@ -73,6 +79,8 @@ $('.nav-fore').click(function() {
 	$('.nav-two').addClass("opa");
 	$('.nav-three').addClass("opa");
 	$('.nav-five').addClass("opa");
+	$('.nav-open1').show();
+	$('.nav-open2').hide();
 	$('.nav-content').removeClass("nav-active");
 })
 
@@ -82,5 +90,7 @@ $('.nav-five').click(function() {
 	$('.nav-two').addClass("opa");
 	$('.nav-three').addClass("opa");
 	$('.nav-fore').addClass("opa");
+	$('.nav-open1').show();
+	$('.nav-open2').hide();
 	$('.nav-content').removeClass("nav-active");
 })
