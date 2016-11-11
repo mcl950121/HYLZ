@@ -162,25 +162,23 @@ li{
 	cursor: pointer;
 }
 .nav-one{	
-	background:url(../images/sucai.png) -653px -360px no-repeat;	
-		
+	background:url(../images/sucai.png) -653px -360px no-repeat;			
 }
 .nav-two{	
-	background:url(../images/sucai.png) -964px -319px no-repeat;
-	opacity:0.4;
-			
+	background:url(../images/sucai.png) -964px -319px no-repeat;				
 }
 .nav-three{	
 	background:url(../images/sucai.png) -0px -360px no-repeat;
-	opacity:0.4;		
+			
+}
+.opa{
+	opacity:0.4;
 }
 .nav-fore{	
-	background:url(../images/sucai.png) -327px -360px no-repeat;	
-	opacity:0.4;	
+	background:url(../images/sucai.png) -327px -360px no-repeat;			
 }
 .nav-five{	
-	background:url(../images/sucai.png) -638px -319px no-repeat;
-	opacity:0.4;		
+	background:url(../images/sucai.png) -638px -319px no-repeat;		
 }
 .control{
 	width:100%;
@@ -197,10 +195,8 @@ li{
 	left:70px;
 	width:108px;
 	height:14px;
-	background:url(../images/sucai.png) -1095px -390px no-repeat;
+	background:url(../images/sucai.png) -1095px -390px no-repeat;	
 }
-
-
 .content-box{
 	width:100%;
 	height:100%;
@@ -209,3 +205,13 @@ li{
 	left:0;
 	background:pink;
 }
+	left:0;		
+}
+.lucency{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:9999;
+	background:rgba(255,255,255,0.5);
+}
+
