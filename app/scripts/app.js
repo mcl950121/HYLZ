@@ -97,3 +97,13 @@ $('.nav-five').click(function() {
 	$('.nav-content').removeClass("nav-active");
 })
 
+$('.logo').click(function(){
+	//alert(1)
+	alert($('.da').length)
+	$('.da').show;
+	
+	})
+
+
+
+
