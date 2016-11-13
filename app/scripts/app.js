@@ -30,6 +30,10 @@ angular
 			url: "/insight",
 			templateUrl: '../views/insight.html',
 			controller: "insight"
+		}).state("company", {
+			url: "/company",
+			templateUrl: '../views/company.html',
+			controller: "company"
 		})
 		$urlRouterProvider.when('', '/main');
 	});
