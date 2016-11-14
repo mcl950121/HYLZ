@@ -367,7 +367,7 @@
 .nextBtn_top {
 	opacity: 0;
 	background: url(../images/sucai.png) -1729px -285px no-repeat;
-}
+	}
 
 #covered {
 	width: 100%;
@@ -499,4 +499,15 @@
 	display:block;
 	background:url(../images/sucai.png) -803px -400px no-repeat; 
 }
+
+
+/*#covered{
+	width:100%;
+	height:662px;
+	background:rgba(255,255,255,0.9);
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:999;
+}*/
 
