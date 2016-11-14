@@ -25,9 +25,9 @@ div.ylogo {width:50%;height:515px;float:left;}
 
 .yright {width:42%;height:515px;float:left;border-left:1px solid #c9c9c9;margin-left:7%;overflow:hidden;}
 .tcontent {width:90%;height:515px;margin-left:10%;float:left;}
-.tcontent i {margin-top:35px;width:30%;height:65px;display:block;}
-.tcontent h2 {width:100%;height:60px;font-size:24px;color:#2d2f30;font-weight:300;}
-.tcontent b {width:100%;height:40px;display:block;}
+.tcontent i {margin-top:15px;width:30%;height:auto;display:block;}
+.tcontent h2 {width:100%;height:60px;font-size:24px;color:#2d2f30;font-weight:300;line-height:60px;}
+.tcontent b {width:100%;height:40px;display:block;margin-top:10px;}
 .tcontent font {width:100%;height:330px;font-size:14px;color:#2d2f30;text-indent:20px;line-height:24px;}
 
 .jzui-r {width:4%;height:100%;position:fixed;right:0;z-index:98;}

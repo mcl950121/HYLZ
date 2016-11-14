@@ -23,6 +23,7 @@ angular.module('yoApp').controller('about', function () {
 		    $('.jtu1 img').attr('src','images/sucai_07.png') 
 			$('.jtu2 img').attr('src','images/sucai_03.png')
 			$('.jlunbo #jull').animate({'left':-(pw*num)},800);
+		  
 			}
 	
 		})
@@ -36,13 +37,40 @@ angular.module('yoApp').controller('about', function () {
 		     $('.jtu2 img').attr('src','images/sucai_03.png')
 			 $('.jtu1 img').attr('src','images/sucai_07.png') 
 			 $('.jlunbo #jull').animate({'left':-(pw*num)},800);
+			 
+			 
 			 }
 
 						 
 		     })
 			 /*轮播图结束*/
-	    
+	    /*右下角 */
+		$('.jkehu').click(function(){
+			  num--;
+			  if(num!=0){
+				   alert(1);
+				    $('.jlunbo #jull').animate({'left':(pw*0)},800);
+				  }
+		  })
+		  
+		  $('.jjituan').click(function(){
+			  if(num!=1){
+				  alert(2)
+			    $('.jlunbo #jull').animate({'left':-(pw*1)},800);
+				  }
+			  })
+		
+		/*右下角*/
 			 
+		/*收起效果*/	 
+		$('.jxia').click(function(){
+		   $('.jxia img').attr('src','images/sucai_03.png')
+			
+			})
+		
+		
+		
+		/*收起效果*/	
 			 	
 			/*logo选项卡*/ 
 			var jtab=$('.yright .tcontent');
