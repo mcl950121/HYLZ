@@ -98,42 +98,61 @@
 	background: red;
 }
 
-@-webkit-keyframes 'aaa' {
-	0% {
-		left: 25px;
-	}
-	50% {
-		left: 31px;
-	}
-	100% {
-		left: 25px;
-	}
+@-webkit-keyframes aa {
+	0% {left: 25px;}
+	50% {left: 31px;}
+	100% {left: 25px;}
 }
-
-@keyframes 'aaa' {
-	0% {
-		left: 25px;
-	}
-	50% {
-		left: 31px;
-	}
-	100% {
-		left: 25px;
-	}
+@-moz-keyframes aa {
+	0% {left: 25px;}
+	50% {left: 31px;}
+	100% {left: 25px;}
 }
-
-.a-box {
+@-o-keyframes aa {
+	0% {left: 25px;}
+	50% {left: 31px;}
+	100% {left: 25px;}
+}
+@-ms-keyframes aa {
+	0% {left: 25px;}
+	50% {left: 31px;}
+	100% {left: 25px;}
+}
+@keyframes aa {
+	0% {left: 25px;}
+	50% {left: 31px;}
+	100% {left: 25px;}
+}
+#boxa{
 	position: absolute;
 	left: 25px;
 	width: 15px;
 	height: 8px;
 	top: 7px;
 }
+#boxa{
+	-webkit-animation: aa 1s infinite;	
+	-moz-animation: aa 1s infinite;	
+	-o-animation: aa 1s infinite;	
+	-ms-animation: aa 1s infinite;	
+	animation: aa 1s infinite;
+} 
 
-.a-box {
-	-webkit-animation-name: 'aaa';
-	-webkit-animation-duration: 1s;
-	-webkit-animation-iteration-count: infinite;
+ .arrow2 {
+    display: block;
+    width: 70px;
+    height: 22px;
+    position: absolute;
+    left: 86px;
+    top: 160px;
+    opacity: .6;
+    border-radius: 3px;
+    
+}
+.arrow_white1 {
+    border: 1px solid #000;
+    /* background: url("img/arrow_white.png") no-repeat center center; */
+    background-size: 15px 8px;
 }
 
 .boult {
@@ -150,7 +169,7 @@
 }
 
 .boult_white {
-	border: 1px solid #dadbdc;
+	border: 1px solid #000;
 	background-size: 15px 8px;
 }
 

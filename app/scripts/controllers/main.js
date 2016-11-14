@@ -11,7 +11,7 @@ angular.module('yoApp')
 	.controller('main', function() {
 
 var index = 0;
-var autoChange = setInterval(function() {
+/*var autoChange = setInterval(function() {
 	if(index < $(".frame li").length - 1) {
 		index++;
 	} else {
@@ -34,7 +34,7 @@ $(".frame").find("li").each(function(i) {
 			changeTo(index);
 		}, 3000);
 	});
-});
+});*/
 
 function changeTo(num) {
 	$(".frame").find("li").removeClass("imgOn").fadeOut(2000).eq(num).fadeIn(1000).addClass("imgOn");		
