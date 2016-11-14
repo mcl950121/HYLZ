@@ -4,7 +4,10 @@ ul li{list-style: none;}
        height: 515px;
        margin: 55px auto auto auto;
        }
-.w-tu1{width: 177px;height: 515px;float: left;position: relative;}
+.w-tu1{width: 177px;height: 515px;float: left;position: relative;
+       /* background: pink; */
+       margin: 55px auto auto auto;}
+.w-tu1{width: 177px;height: 515px;float: left;}
 .w-t{width: 177px;height: 126px;}
 .w-t1{width: 177px;height: 126px;margin-top: 4px;}
 .w-t2{width: 177px;height: 255px;margin-top: 4px;}
