@@ -54,6 +54,8 @@ angular.module('yoApp')
 			$(".frame").find("li").removeClass("imgOn").hide().eq(num).fadeIn(2000).addClass("imgOn");
 
 		}
+		clearInterval(autoChange);
+
 
 
 		$('.arrow_white1').click(function(){	
