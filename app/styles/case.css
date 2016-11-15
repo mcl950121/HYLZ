@@ -2,10 +2,13 @@
 ul li{list-style: none;}
 .w-box{width: 1090px;
        height: 515px;
+       margin: 55px auto auto auto;
+       }
+.w-tu1{width: 177px;height: 515px;float: left;position: relative;
        /* background: pink; */
        margin: 55px auto auto auto;}
 .w-tu1{width: 177px;height: 515px;float: left;}
-.w-t{width: 177px;height: 126px;}
+.w-t{width: 177px;height: 126px;margin-top: -55px;}
 .w-t1{width: 177px;height: 126px;margin-top: 4px;}
 .w-t2{width: 177px;height: 255px;margin-top: 4px;}
 .w-tu2{width: 360px;height: 515px;float: left;margin-left: 5px;}
@@ -15,11 +18,77 @@ ul li{list-style: none;}
 .w-t5{width: 178px;height: 126px;}
 .w-t6{width: 178px;height: 126px;margin-top: 4px;}
 .w-t7{width: 178px;height: 255px;margin-top: 4px;}
-.w-tu4{width: 360px;height: 515px;float: right;}
+.w-tu4{width: 360px;height: 515px;float: right;z-index: 999}
 .w-t8{width: 360px;height: 256px;}
-.w-t9{width: 178px;height: 126px;margin-top: 4px;float: left;}
+.w-t9{    width: 360px;
+    height: 256px;
+    margin-top: 4px;
+  
+    }
 .w-t10,.w-t12{width: 178px;height: 126px;float: right;margin-top: 4px;}
 .w-t11{width: 178px;height: 126px;float: left;margin-top: 4px;}
+.w-h1{width: 177px;height: 126px;margin-top: -126px;}
+.w-h2{width: 177px;height: 126px;margin-top: -126px;}
+.backgroundRed{position: relative;}
+.bgOpact{background: #bf5446;opacity: .8;
+	z-index: 1;position: absolute;left: 0;top: 0;width: 100%;height: 100%;display: none;}
 
 
+@-webkit-keyframes aaa {
+	0% {left: 25px;}
+	50% {left: 31px;}
+	100% {left: 25px;}
+}
+@-moz-keyframes aaa {
+	0% {left: 25px;}
+	50% {left: 31px;}
+	100% {left: 25px;}
+}
+@-o-keyframes aaa {
+	0% {left: 25px;}
+	50% {left: 31px;}
+	100% {left: 25px;}
+}
+@-ms-keyframes aaa {
+	0% {left: 25px;}
+	50% {left: 31px;}
+	100% {left: 25px;}
+}
+@keyframes aaa {
+	0% {left: 25px;}
+	50% {left: 31px;}
+	100% {left: 25px;}
+}
+#box{
+	position: absolute;
+	left: 25px;
+	width: 15px;
+	height: 8px;
+	top: 7px;
+}
+#box{
+	-webkit-animation: aaa 1s infinite;	
+	-moz-animation: aaa 1s infinite;	
+	-o-animation: aaa 1s infinite;	
+	-ms-animation: aaa 1s infinite;	
+	animation: aaa 1s infinite;
+} 
 
+ .arrow1 {
+    display: block;
+    width: 70px;
+    height: 22px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -12px;
+    margin-left: -35px;
+    opacity: .6;
+    border-radius: 3px;
+    z-index: 2;
+    display: none;
+}
+.arrow_white {
+    border: 1px solid #fff;
+    background-size: 15px 8px;
+}	

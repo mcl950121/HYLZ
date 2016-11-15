@@ -12,27 +12,27 @@ angular
 	.module('yoApp', ['ui.router']).config(function($stateProvider, $urlRouterProvider) {
 		$stateProvider.state("main", {
 			url: "/main",
-			templateUrl: '../views/main.html',
+			templateUrl: 'views/main.html',
 			controller: "main"
 		}).state("about", {
 			url: "/about",
-			templateUrl: '../views/about.html',
+			templateUrl: 'views/about.html',
 			controller: "about"
 		}).state("case", {
 			url: "/case",
-			templateUrl: '../views/case.html',
+			templateUrl: 'views/case.html',
 			controller: "case"
 		}).state("hire", {
 			url: "/hire",
-			templateUrl: '../views/hire.html',
+			templateUrl: 'views/hire.html',
 			controller: "hire"
 		}).state("insight", {
 			url: "/insight",
-			templateUrl: '../views/insight.html',
+			templateUrl: 'views/insight.html',
 			controller: "insight"
 		}).state("company", {
 			url: "/company",
-			templateUrl: '../views/company.html',
+			templateUrl: 'views/company.html',
 			controller: "company"
 		}).state("geng1", {
 			url: "/geng1",
