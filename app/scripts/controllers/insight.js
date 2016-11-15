@@ -66,7 +66,7 @@ angular.module('yoApp')
 			if(ofright =='1'){
 				$(this).find('.infor_box').stop().fadeIn("fast")
 			}else{
-				$(this).find('.infor_box').stop().fadeOut("10")
+				$(this).find('.infor_box').stop().fadeOut("fast")
 			}
 		}),10
 	})
