@@ -1,4 +1,4 @@
-window.onload = function() {
+
 	var t
 	function a() {
 		document.getElementById("t").style.display = "block";
@@ -54,4 +54,3 @@ window.onload = function() {
 	}
 
 
-}

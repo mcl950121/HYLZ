@@ -60,7 +60,7 @@ angular.module('yoApp').controller('about', function () {
 		$('.jjituan').click(function(){
 			//  num--;
 			  if(num!=0){
-				   alert(1);
+//				   alert(1);
 				  $('.jlunbo #jull').animate({'left':(pw*0)},800);
 					
 				  }
@@ -68,7 +68,7 @@ angular.module('yoApp').controller('about', function () {
 		  
 		  $('.jkehu').click(function(){
 			  if(num!=1){
-				  alert(2)
+//				  alert(2)
 			    $('.jlunbo #jull').animate({'left':-(pw*1)},800);
 				  }
 			  })

@@ -12,7 +12,9 @@ angular.module('yoApp')
 	.controller('main', function() {
 
 		var curIndex = 0;
-		var autoChange = setInterval(function() {
+		var aTime;		 
+        
+        aTime = setInterval(function() {
 			if(curIndex < 1) {
 				curIndex++;
 			} else {
@@ -20,10 +22,10 @@ angular.module('yoApp')
 			}
 			changeTo(curIndex);
 		}, 5000);
-
+		
 		$('.fBtn_left').click(function() {
             
-            clearInterval(autoChange);
+            clearInterval(aTime);
 			$('.fBtn_left').addClass("indexOn");
 			$('.fBtn_right').removeClass("indexOn");
 			
@@ -37,7 +39,7 @@ angular.module('yoApp')
 
 		$('.fBtn_right').click(function() {
 
-			clearInterval(autoChange);
+			clearInterval(aTime);
 			$('.fBtn_right').addClass("indexOn");
 			$('.fBtn_left').removeClass("indexOn");
 
@@ -48,19 +50,21 @@ angular.module('yoApp')
 			changeTo(curIndex);
 		})
 		
+		setInterval(aTime);
+		
 		function changeTo(num) {
 			$(".frame").find("li").removeClass("imgOn").hide().eq(num).fadeIn(2000).addClass("imgOn");
 		}
 		
-        setInterval(autoChange);
+        
                
 		$('.arrow_white1').click(function() {
-			clearInterval(autoChange);
+			clearInterval(aTime);
 			$('#covered').fadeIn(1000);
 		})
 
 		$('.delete').click(function() {
-			setInterval(autoChange);
+			setInterval(aTime);
 			$('#covered').fadeOut(1000);
 		})
 
@@ -87,6 +91,7 @@ angular.module('yoApp')
 				var a = item_btn.offsetTop / (item_line.offsetHeight - (item_btn.offsetHeight - 2));
 				details_con.style.top = -(details_con.offsetHeight - details.offsetHeight) * a + "px";
 			}
+			
 			document.onmouseup = function() {
 				document.onmousemove = document.onmouseup = null;
 			}
