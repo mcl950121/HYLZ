@@ -5,10 +5,16 @@ ol,ul,li{list-style:none;}
 a{text-decoration:none;}
 a:hover{text-decoration:none;}
 
-.big_hire{ width: 88%; height: 367px; margin: 0 auto; position: relative; margin-top: 130px;}
-.hire_l{ width: 568px; height: 367px; float: left;  position: relative;}
-.hire_r{ width: 571px; height: 367px; float: right; border-left: 1px solid #ccc; border-right: 1px solid #ccc;}
+.Big{ width: 100%; height: 100%; background: #f6f7fa; position: relative; }
+.big_hire{ width: 88%; height: 367px; margin: 0 auto; margin-top: 130px;}
+.hire_l{ width: 45%; height: 367px; float: left;  position: relative;}
+.hire_r{ width: 43%; height: 367px; float: left; border-left: 1px solid #ccc; border-right: 1px solid #ccc; margin-left: 7%;}
 .hire_img{ width: 430px; height: 367px; overflow: hidden; display: block; margin-left: 137px;}
+.hire_r2{ width: 43%; height: 367px; float: right; border-left: ;}
+.hire_r2 h1{ font-size: 40px; height: 50px; line-height: 46px; padding-left: 60px; color: #323232;}
+.hire_r2 h2{ font-size: 22px; height: 30px; line-height: 30px; padding-left: 60px;}
+.word{ display: block; font-size: 14px; line-height: 25px; margin-top: 25px; width: 490px; margin-left: 60px;}
+.sq{ display: block; width: 92px; height: 31px; border: 1px solid #ccc; color: #0e0e0e; font-size: 14px; line-height: 31px; text-align: center; margin-left: 60px; margin-top: 16px;}
 .hire_r ul{ width: 571px; height: 367px; overflow-y: scroll; padding-left: 50px;}
 .hire_r ul li{ line-height: 61px; border-bottom: 1px solid #c9c9c9; width: 465px; position: relative; cursor: pointer;}
 .sublist{ border: 0;}
@@ -19,11 +25,11 @@ a:hover{text-decoration:none;}
 .apply_l{ width: 104px; height: 34px; float: left; line-height: 34px; text-align: center;}
 .apply_c{ float: right; width: 2px; height: 15px; display: block; position: absolute; left: 105px; top: 11px;}
 .apply_r{ float: right; width: 23px; height: 16px; display: block; position: absolute; right: 47px; top: 10px;}
-.hire_footer{ width: 57px; height: 289px; border: 1px solid #ccc; position: fixed; right: 0; bottom: 0px;}
 .hire_footer{ width: 57px; height: 289px; border: 1px solid #ccc; position: fixed; right: 0; bottom: 0; z-index: 99;}
 .hire_footer ul li{ height: 57px; border-bottom: 1px solid #ccc; text-align: center; line-height: 57px; color: #a2a2a3;}
-.arrow{ padding-left: 20px; padding-top: 25px;}
+.arrow{ padding-left: 20px; padding-top: 25px; cursor: pointer;}
 .now{ background: #2d2f30;}
-.entrance_l{ background: #272b2c; display: block; width: 134px; height: 57px; position: absolute; top: 220px; left: 30px; color: white; font-size: 14px; text-align: center; line-height: 57px;} 
-.entrance_r{ background: #fff; display: block; width: 134px; height: 57px; position: absolute; top: 220px; left: 170px; color: black; font-size: 14px; text-align: center; line-height: 57px; border: 1px solid #ccc;} 
+.entrance_l{ display: block; width: 134px; height: 57px; position: absolute; top: 220px; left: 30px; font-size: 14px; text-align: center; line-height: 57px; cursor: pointer; border: 1px solid #ccc; color: #272B2C; background: #fff;} 
+.entrance_r{ background: #fff; display: block; width: 134px; height: 57px; position: absolute; top: 220px; left: 170px; color: black; font-size: 14px; text-align: center; line-height: 57px; border: 1px solid #ccc; cursor: pointer; color: #272B2C;} 
+.tab_bg{ background: #272b2c; color: white;}
 

@@ -15,9 +15,8 @@
     .w-ul{width: 259px;height: 600px;border-right: 1px solid #f18b00;}
     .w-ul li{width: 140px;height: 26px;background: white;float: right;margin-top: 20px;}
     .w-ul li a{line-height: 26px;color: #333333;width: 140px;height: 26px;display: block;text-align: center;}
- 
     .w-a1 a:hover{background: #f18b00;color: #fff}
-    
+    #ull a.hover{background: red;color: #fff}
     .w-a2 a:hover{background: #007eb6;color: #fff}
     .w-a3 a:hover{background: #d51c2a;color: #fff}
     .w-a4 a:hover{background: #71bf45;color: #fff}
@@ -81,7 +80,7 @@
 			<div class="w-left">
 				<img src="../images/lian.jpg" alt="" class="w-u">
 				<ul class="w-ul" id="ull">
-					<li class="w-a1"><a href="geng1.html" style="background:#f18b00;color: #fff">华扬联众</a></li>
+					<li class="w-a1"><a href="geng1.html" style="background:#f29100;color:#fff;">华扬联众</a></li>
 					<li class="w-a2"><a href="geng2.html">华扬创想</a></li>
 					<li class="w-a3"><a href="geng3.html">派择</a></li>
 					<li class="w-a4"><a href="geng4.html">捷报指向</a></li>
@@ -96,14 +95,14 @@
 				     <div id="gun">
 				      <ul>
 				        <li><img src="../images/gun.jpg"/></li>				    
+				        <li><img src="images/gun.jpg"/></li>				    
 				      </ul>
 				    </div> 
 				</div>
 				<div class="w-zi">
 					<p>&nbsp;&nbsp;华扬联众（Hylink）成立于1994年，自2003年起成功转型为提供互联网及数字媒体领域全方位服务的广告公司，致力于提供跨媒体领域的整合营销服务。多年来，华扬联众服务于国内外各行业领先客户，通过对策略、创意、媒介整合和行业发展的深度洞察，帮助他们在e-Marketing方面取得不断的成功。 <br>
                    <br>
-				　　华扬联众曾多次荣膺国内及国际创意大赛的诸项殊荣，其中包括中国互动网络广告创意奖、中国4A创意金印奖、金手指网络奖等奖项。在2011年的戛纳广告节，华扬联众也很荣幸地作为中国大陆唯一一家互动广告公司入选了评审委员会。此外，在过去五年中，华扬联众几乎包揽了所有中国地区唯一的最具价值互动代理公司奖，所占市场份额及营业规模均处于领头羊位置。<br>
-				
+				　　华扬联众曾多次荣膺国内及国际创意大赛的诸项殊荣，其中包括中国互动网络广告创意奖、中国4A创意金印奖、金手指网络奖等奖项。在2011年的戛纳广告节，华扬联众也很荣幸地作为中国大陆唯一一家互动广告公司入选了评审委员会。此外，在过去五年中，华扬联众几乎包揽了所有中国地区唯一的最具价值互动代理公司奖，所占市场份额及营业规模均处于领头羊位置。<br>				
 				</div>
 				<p class="w-zao"><img src="../images/zao.jpg" alt=""></p>
 				<div class="w-d">
@@ -275,6 +274,20 @@ aInput[1].onclick=function(){
 
 }
     
+  // var oUll=document.getElementById('ull'); 
+  // var aInput = oUll.getElementsByTagName('li');
+  // for(var i=0;i<aInput.length;i++){
+  //   aInput[i].onclick=function(){
+  //     alert()
+  //     for(var i=0;i<aInput.length;i++){
+  //       aInput[i].className='';
+  //     }
+  //   }
+    $('#ull li a').click(function(){
+      this.addClass('hover').parent().siblings().children().removeClass('hover');
+    })
+    
+  }
 </script>
 </body>
 </html>

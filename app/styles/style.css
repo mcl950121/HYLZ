@@ -2,6 +2,12 @@
 /* 公共样式表 */
 
 body{text-align:left; font-family:"微软雅黑", arial; margin:0; padding:0;}
+
+/*01. 整体颜色风格、字体设置：
+    a. background:#FFF; 背景颜色，根据网页效果图来设定背景颜色，如果有图片就加图片。
+	b. 字体： font-size:12px; 
+*/
+
 div,form,img,ul,ol,li,dl,dt,dd,input{margin:0; padding:0; border:0;}
 li,dl{list-style-type:none;}
 h2,h3,h4,h5,h6 { margin:0; padding:0;font-size:12px; font-weight:normal;}
