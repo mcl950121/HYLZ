@@ -42,7 +42,7 @@ a:hover{text-decoration:none;}
 	height: 57px; border-top: 1px #c9c9c9 solid;border-left: 1px #c9c9c9 solid; text-align: center; line-height: 57px; color: #a2a2a3; z-index: 999999;
 }
 .new_ce_list ul li:hover{
-	height: 57px; border-top: 1px #c9c9c9 solid;border-left: 1px #c9c9c9 solid; text-align: center; line-height: 57px; background-color: #2e2f31; color: #f6f7fb;
+	height: 57px; border-top: 1px #c9c9c9 solid;border-left: 1px #c9c9c9 solid; text-align: center; line-height: 57px; background-color: #2e2f31; color: #f6f7fb; cursor: pointer;
 }
 .new_active{
 	background-color: #2e2f31; color: #f6f7fb;
