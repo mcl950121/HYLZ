@@ -4,8 +4,6 @@
 /* 公共样式表 */
 
 body{text-align:left; font-family:"微软雅黑", arial; margin:0; padding:0; background:#FFF; font-size:12px; color:#666;}
-body{text-align:left; font-family:"宋体", arial; margin:0; padding:0; background:#FFF; font-size:12px; color:#666;}
-
 
 /*01. 整体颜色风格、字体设置：
     a. background:#FFF; 背景颜色，根据网页效果图来设定背景颜色，如果有图片就加图片。
