@@ -23,7 +23,7 @@ angular.module('yoApp').controller('about', function () {
 	  xia.click(function(){
 			 num++;	
 	     if(num==aLi.length){
-			 alert('这已经是最后一张了')	  
+			// alert('这已经是最后一张了')	  
 		     num=aLi.length-1;
 		$('.jtu2 img').attr('src','images/hui1.png')
 		    }else{
@@ -40,7 +40,7 @@ angular.module('yoApp').controller('about', function () {
 		    num--;
 			 if(num==-1){
 			num=0;
-				alert('这已经是第一张了')
+			//	alert('这已经是第一张了')
 			   $('.jtu1 img').attr('src','images/hui2.png');
 			 }else if(num!=-1){
 		     $('.jtu2 img').attr('src','images/sucai_03.png')
