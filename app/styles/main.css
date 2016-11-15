@@ -92,63 +92,96 @@
 	height: 22px;
 	margin: 10px 20px 20px;
 	float: right;
-	/*background:pink;*/
+	cursor: pointer;
 }
+
 @-webkit-keyframes aa {
-	0% {left: 25px;}
-	50% {left: 31px;}
-	100% {left: 25px;}
+	0% {
+		left: 25px;
+	}
+	50% {
+		left: 31px;
+	}
+	100% {
+		left: 25px;
+	}
 }
+
 @-moz-keyframes aa {
-	0% {left: 25px;}
-	50% {left: 31px;}
-	100% {left: 25px;}
+	0% {
+		left: 25px;
+	}
+	50% {
+		left: 31px;
+	}
+	100% {
+		left: 25px;
+	}
 }
+
 @-o-keyframes aa {
-	0% {left: 25px;}
-	50% {left: 31px;}
-	100% {left: 25px;}
+	0% {
+		left: 25px;
+	}
+	50% {
+		left: 31px;
+	}
+	100% {
+		left: 25px;
+	}
 }
+
 @-ms-keyframes aa {
-	0% {left: 25px;}
-	50% {left: 31px;}
-	100% {left: 25px;}
+	0% {
+		left: 25px;
+	}
+	50% {
+		left: 31px;
+	}
+	100% {
+		left: 25px;
+	}
 }
+
 @keyframes aa {
-	0% {left: 25px;}
-	50% {left: 31px;}
-	100% {left: 25px;}
+	0% {
+		left: 25px;
+	}
+	50% {
+		left: 31px;
+	}
+	100% {
+		left: 25px;
+	}
 }
-.a-box{
+
+.a-box {
 	position: absolute;
 	left: 25px;
 	width: 15px;
 	height: 8px;
 	top: 7px;
 }
-.a-box{
-	-webkit-animation: aa 1s infinite;	
-	-moz-animation: aa 1s infinite;	
-	-o-animation: aa 1s infinite;	
-	-ms-animation: aa 1s infinite;	
-	animation: aa 1s infinite;
-} 
 
- .arrow2 {
-    display: block;
-    width: 70px;
-    height: 22px;
-    position: absolute;
-    /*left:0px;
-    top: 0px;*/
-    opacity: 0.6;
-    border-radius: 3px;
-    
+.a-box {
+	-webkit-animation: aa 1s infinite;
+	-moz-animation: aa 1s infinite;
+	-o-animation: aa 1s infinite;
+	-ms-animation: aa 1s infinite;
+	animation: aa 1s infinite;
 }
+
+.arrow2 {
+	display: block;
+	width: 70px;
+	height: 22px;
+	position: absolute;
+	opacity: 0.6;
+	border-radius: 3px;
+}
+
 .arrow_white1 {
-    border: 1px solid #D7D7D9;
-    /* background: url("img/arrow_white.png") no-repeat center center; */
-    /*background-size: 15px 8px;*/
+	border: 1px solid #D7D7D9;
 }
 
 .boult {
@@ -168,12 +201,10 @@
 	border: 1px solid #D7D7D9;
 	background-size: 15px 8px;
 }
-/*轮播第一块右边*/
 
 .frame-right {
 	width: 58%;
 	height: 100%;
-	/*background:yellow;*/
 	float: left;
 	margin-left: 5px;
 }
@@ -236,13 +267,14 @@
 	height: 22px;
 	margin: 10px 20px 20px;
 	float: left;
+	cursor: pointer;
 }
 
 .frame_btn {
 	position: absolute;
 	top: 100px;
 	right: -11%;
-	z-index: 999;	
+	z-index: 9;
 }
 
 .frame_btn .indexOn {
@@ -255,8 +287,8 @@
 	height: 30px;
 	background: url(../images/sucai.png) -1979px -225px no-repeat;
 	display: inline-block;
-	overflow: hidden; 
-	cursor:pointer;   
+	overflow: hidden;
+	cursor: pointer;
 }
 
 .fBtn_line {
@@ -275,7 +307,7 @@
 	background: url(../images/sucai.png) -1983px -137px no-repeat;
 	display: inline-block;
 	overflow: hidden;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .next_btn {
@@ -335,7 +367,140 @@
 .nextBtn_top {
 	opacity: 0;
 	background: url(../images/sucai.png) -1729px -285px no-repeat;
+	}
+
+#covered {
+	width: 100%;
+	height: 662px;
+	background: rgba(255, 255, 255, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
 }
+
+#item_line {
+	width: 1px;
+	height: 529px;
+    background: #D8D8D2;
+	position:absolute;	
+	top:60px;
+	right:325px;
+}
+
+#item_btn {
+	width: 5px;
+	height: 65px;	
+	background: rgba(0,0,0,1);
+	position: absolute;
+	left: -2px;
+	top: 0;
+	opacity: 0.4;
+	cursor: pointer;
+}
+#item_btn:hover {
+	opacity:1;
+}
+#details {
+	width: 57%;
+	height: 529px;
+	position: relative;
+	overflow: hidden;
+	top: 60px;
+	left: 293px;
+}
+
+#details_con {
+	width: 96%;
+	height: 2560px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.detCon_img {
+	width: 728px;
+	height: 516px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.detCon_img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.detCon_one {
+	width: 90%;
+	height: 2095px;
+	float: right;
+	background: #FFFFFF;
+	position:absolute;
+	top:460px;
+	left:10%;
+	/*margin-right:-30px;*/
+}
+.global_xq{
+	position:absolute;
+	top:35px;
+	left:35px;
+	width:80px;
+	height:80px;
+	/*margin:35px 0 0 35px;*/
+	border:1px solid #363636;
+}
+.global_xq div{
+	margin-top:20px;
+}
+
+.global_xq div p:first-child{
+	margin-top:26px;
+}
+.global_xq div p{	
+	padding-left:10px;
+	font-size:12px;
+	font-family: arial;
+	color:#363636;
+
+}
+.delete {
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	top: 60px;
+	right: 260px;	
+	cursor: pointer;
+}
+.delete_img{
+	width:100%;
+	height:100%;
+	background: url(../images/sucai.png) -1997px 0px no-repeat; 
+	overflow: hidden;
+	display:inline-block;
+}
+
+#global_title_text{
+	padding-right:40px;
+	font-size:24px;
+	color:#2D2F30;
+	font-family:"Microsoft Yahei","Heiti SC","Droid Sans",Arial;
+}
+#global_xq_content{
+	margin-top:5px;
+	text-align: justify;
+	font-family:"Microsoft Yahei","Heiti SC","Droid Sans",Arial;
+
+}
+.xq_line{
+	width:106px;
+	height:4px;
+	overflow: hidden;
+	display:block;
+	background:url(../images/sucai.png) -803px -400px no-repeat; 
+}
+
+
 /*#covered{
 	width:100%;
 	height:662px;
@@ -345,3 +510,4 @@
 	left:0;
 	z-index:999;
 }*/
+
