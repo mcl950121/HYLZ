@@ -13,7 +13,7 @@ angular.module('yoApp')
 
 		var curIndex = 0;
 		var autoChange = setInterval(function() {
-			if(curIndex < $(".frame li").length - 1) {
+			if(curIndex < 1) {
 				curIndex++;
 			} else {
 				curIndex = 0;
@@ -22,10 +22,11 @@ angular.module('yoApp')
 		}, 2500);
 
 		$('.fBtn_left').click(function() {
-
+            
+            clearInterval(autoChange);
 			$('.fBtn_left').addClass("indexOn");
 			$('.fBtn_right').removeClass("indexOn");
-			clearInterval(autoChange);
+			
 			curIndex--;
 			if(curIndex < 0) {
 				curIndex = 1
@@ -52,8 +53,6 @@ angular.module('yoApp')
 		function changeTo(num) {
 			$(".frame").find("li").removeClass("imgOn").hide().eq(num).fadeIn(2000).addClass("imgOn");
 		}
-		clearInterval(autoChange);
-
 
 		$('.arrow_white1').click(function() {
 			clearInterval(autoChange);
