@@ -19,7 +19,7 @@ angular.module('yoApp')
 				curIndex = 0;
 			}
 			changeTo(curIndex);
-		}, 2500);
+		}, 5000);
 
 		$('.fBtn_left').click(function() {
             
@@ -47,13 +47,13 @@ angular.module('yoApp')
 			}
 			changeTo(curIndex);
 		})
-
-		setInterval(autoChange);
-
+		
 		function changeTo(num) {
 			$(".frame").find("li").removeClass("imgOn").hide().eq(num).fadeIn(2000).addClass("imgOn");
 		}
-
+		
+        setInterval(autoChange);
+               
 		$('.arrow_white1').click(function() {
 			clearInterval(autoChange);
 			$('#covered').fadeIn(1000);
@@ -63,6 +63,7 @@ angular.module('yoApp')
 			setInterval(autoChange);
 			$('#covered').fadeOut(1000);
 		})
+
 
 		//自顶替滚动条效果
 		item_btn.onmousedown = function(e) {
