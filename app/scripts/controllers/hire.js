@@ -27,6 +27,20 @@ angular.module('yoApp')
 			$scope.index=e
 		}
 		
+		$scope.aa=true
+		$scope.a=function(e){
+			$scope.jgr=e;
+			$scope.aa=true
+			$scope.bb=false	
+		}
+		$scope.b=function(e){
+			$scope.jgr=e;
+			$scope.aa=false
+			$scope.bb=true
+		}
+	
+		
    
   });
+
 

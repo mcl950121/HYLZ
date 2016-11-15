@@ -1,3 +1,4 @@
+<div class="Big">
 <div class="big_hire">
 	 <div class="hire_l">
 	 		<span class="hire_img">
@@ -8,29 +9,41 @@
 	 				新互联网时代，你需要有备而来!
 	 			</h1>
 	 		</span>
-	 		<span class="entrance_l">社会招聘</span>
-	 		<span class="entrance_r">校招入口</span>
+	 		<span class="entrance_l" ng-click="a('aa')" ng-class={tab_bg:aa}>社会招聘</span>
+	 		<span class="entrance_r" ng-click="b('bb')" ng-class={tab_bg:bb}>校招入口</span>
 	 </div>
-	 <div class="hire_r">
- 		<ul>
- 			<li ng-repeat="i in data">
- 				<span ng-click="isshow($index)" style="font-size: 16px;">{{i.nav}}</span>
-				<ol ng-if="i.subnav" ng-show="$index==index">
-					<li ng-repeat="x in i.subnav" style="border: none; line-height: 27px;">{{x.snav}}</li>
-				</ol>
-				<i class="sanjiao"><img src="../images/sanjiao.png"/></i>
-				<span class="apply" ng-show="$index==index">
-					<p class="apply_l">我要申请</p>
-					<i class="apply_c">
-						<img src="../images/line.png" />
-					</i>
-					<i class="apply_r">
-						<img src="../images/letter.png" />
-					</i>
-				</span>
- 			</li>
- 		</ul>
+	 
+	 <div ng-switch="jgr">
+		 <div class="hire_r" ng-switch-default>
+	 		<ul>
+	 			<li ng-repeat="i in data">
+	 				<span ng-click="isshow($index)" style="font-size: 16px;">{{i.nav}}</span>
+					<ol ng-if="i.subnav" ng-show="$index==index">
+						<li ng-repeat="x in i.subnav" style="border: none; line-height: 27px;">{{x.snav}}</li>
+					</ol>
+					<i class="sanjiao"><img src="../images/sanjiao.png"/></i>
+					<span class="apply" ng-show="$index==index">
+						<p class="apply_l">我要申请</p>
+						<i class="apply_c">
+							<img src="../images/line.png" />
+						</i>
+						<i class="apply_r">
+							<img src="../images/letter.png" />
+						</i>
+					</span>
+	 			</li>
+	 		</ul>
+		 </div>
+		 <div class="hire_r2" ng-switch-when="bb">
+		 	<h1>牛犊计划</h1>
+		 	<h2>为闪亮的未来，写下一个开始</h2>
+		 	<span class="word">
+                                牛犊计划（既华扬联众实习生计划）是华扬联众人才战略的重要组成部分。该项目不仅旨在丰富公司的基础人才储备，为华扬输送优秀高潜力人才，更通过对该项目的有效运营，使华扬在全国范围内和许多业内知名院校建立了战略合作伙伴关系，扩大了华扬的品牌知名度。华扬联众作为中国数字媒体领域的开拓者和领军者，在过去的20余年为中国广告行业培养了无数人才。牛犊计划秉承华扬一贯的优良传统，为有志在广告行业发展的年轻人提供一个平台，让他们学以致用并在实践中成长，成为中国广告行业的新生力量。
+            </span>
+            <span class="sq">我要申请</span>
+		 </div>
 	 </div>
+	 
 </div>
 <div class="hire_footer">
 	<ul>
@@ -41,5 +54,5 @@
 		<li><a ui-sref="company">更多</a></li>
 	</ul>
 </div>
-
+</div>
 
