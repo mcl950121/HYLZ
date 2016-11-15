@@ -13,8 +13,8 @@
 	 		<span class="entrance_r" ng-click="b('bb')" ng-class={tab_bg:bb}>校招入口</span>
 	 </div>
 	 
-	 <div ng-switch="jgr">
-		 <div class="hire_r" ng-switch-default>
+	 <div ng-switch="jgr"> <!--ng-switch 指令根据表达式显示或隐藏对应的部分。-->
+		 <div class="hire_r" ng-switch-default><!-- ng-switch-when="aa"-->
 	 		<ul>
 	 			<li ng-repeat="i in data">
 	 				<span ng-click="isshow($index)" style="font-size: 16px;">{{i.nav}}</span>
