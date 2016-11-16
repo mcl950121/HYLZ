@@ -6,7 +6,7 @@ a{text-decoration:none;}
 a:hover{text-decoration:none;}
 
 .new_main{
-	width: 100%; height: 530px; margin: 60px auto auto auto; background: #f6f7fb; overflow: hidden; 
+	width: 100%; height: 530px; margin: 60px auto auto auto; overflow: hidden; 
 }
 .new_list_content{
 	height: 480px; margin-left:0px; overflow: hidden; position:relative
@@ -24,10 +24,10 @@ a:hover{text-decoration:none;}
 	width:313px;height:218px;
 }
 .infor_box{
-	width:315px;height:255px; display: none;
+	width:315px;height:255px; display: none; color:#000;
 }
 .infor_box span:nth-child(1){
-	width:315px;height:50px;line-height: 50px; font-size: 18px; color:#000400;
+	width:315px;height:50px;line-height: 50px; font-size: 18px; color:#000;
 }
 .infor_box_di{
 	width: 108px;height: 4px;margin-top:20px;background-image: url(../images/new_foot.png);background-repeat: no-repeat;
@@ -45,17 +45,18 @@ a:hover{text-decoration:none;}
 	height: 57px; border-top: 1px #c9c9c9 solid;border-left: 1px #c9c9c9 solid; text-align: center; line-height: 57px; background-color: #2e2f31; color: #f6f7fb; cursor: pointer;
 }
 .new_active{
-	background-color: #2e2f31; color: #f6f7fb;
+	height: 57px; border-top: 1px #c9c9c9 solid;border-left: 1px #c9c9c9 solid; text-align: center; line-height: 57px; background-color: #2e2f31; color: #f6f7fb; cursor: pointer;
 }
 .gallery-thumbs {
     height:  480px;
     box-sizing: border-box;
-    padding: 10px 25px;
+    padding: 20px 25px;
     cursor: pointer;
 }
 .gallery-thumbs .swiper-slide {
     width: 25%;
-    height: 220px;
+    height: 50%;
+    border: 1px solid #c8c8ca;
     padding-top: 220px;
     opacity: 0.5;
 }
