@@ -235,7 +235,7 @@
 	</div>
 <script>
 	/*无缝滚动*/
-window.onload=function(){
+
 	var oGun=document.getElementById('gun');
 	var oUl=oGun.getElementsByTagName('ul')[0];
 	var aLi=oUl.getElementsByTagName('li');
@@ -260,10 +260,9 @@ window.onload=function(){
 	oGun.onmouseout=function(){
 		timer=setInterval(m, 30);
 	}
-	
-}
+
   
-  var oUll=document.getElementById('ull'); 
+  /*var oUll=document.getElementById('ull'); 
   var aInput = oUll.getElementsByTagName('li');
     aInput[0].onclick=function(){
     aInput[0].className='hover'
@@ -287,7 +286,7 @@ aInput[1].onclick=function(){
       this.addClass('hover').parent().siblings().children().removeClass('hover');
     })
     
-  }
+  }*/
 </script>
 </body>
 </html>

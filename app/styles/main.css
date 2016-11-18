@@ -405,7 +405,7 @@
 	width: 57%;
 	height: 529px;
 	position: relative;
-	overflow: hidden;
+	overflow: auto;
 	top: 60px;
 	left: 293px;
 }
@@ -477,6 +477,7 @@
 	height:100%;
 	background: url(../images/sucai.png) -1997px 0px no-repeat; 
 	overflow: hidden;
+	margin-left: 24px;
 	display:inline-block;
 }
 

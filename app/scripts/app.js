@@ -33,7 +33,6 @@ angular
 		}).state("company", {
 			url: "/company",
 			templateUrl: 'views/company.html',
-			controller: "company"
 		}).state("geng1", {
 			url: "/geng1",
 			templateUrl: '../views/geng1.html',
