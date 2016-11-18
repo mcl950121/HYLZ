@@ -1,29 +1,31 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>华扬联众官方网站</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/about.css">
-    <link rel="stylesheet" href="styles/case.css">
-    <link rel="stylesheet" href="styles/hire.css">
-    <link rel="stylesheet" href="styles/insight.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <!-- endbuild -->
-  </head>
-  <body ng-app="yoApp">	
-		  <div class="box">
-			  <!--<img src="../images/bg1.png" alt="bg" class="content-bg" />-->	
+
+	<head>
+		<meta charset="utf-8">
+		<title>华扬联众官方网站</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<!-- build:css(.) styles/vendor.css -->
+		<!-- bower:css -->
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<!-- endbower -->
+		<!-- endbuild -->
+		<!-- build:css(.tmp) styles/main.css -->
+		<link rel="stylesheet" href="styles/index.css">
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/about.css">
+		<link rel="stylesheet" href="styles/case.css">
+		<link rel="stylesheet" href="styles/hire.css">
+		<link rel="stylesheet" href="styles/insight.css">
+		<link rel="stylesheet" href="styles/style.css">
+		<!-- endbuild -->
+	</head>
+
+	<body ng-app="yoApp">
+		<div class="box">
+			<!--<img src="../images/bg1.png" alt="bg" class="content-bg" />-->
 			<div class="top">
 				<!--顶端彩色条-->
 				<div class="topcolor">
@@ -38,73 +40,75 @@
 					<div id="logo">
 						<span class="logo"></span>
 					</div>
-					
+
 					<!--导航-->
 					<div id="nav">
 						<div id="mouseHand">
 							<span class="nav-open1"></span>
 							<span class="nav-open2" style="display:none"></span>
-						</div>	
+						</div>
 						<div id="english-ico">
-		                    <a href="#" class="eng-link"></a>						
+							<a href="#" class="eng-link"></a>
 						</div>
-					</div>																	
-						<div class="nav-content">
-							<ul class="nav-btn">
-						<li><span class="nav-one" ui-sref="main"></span></li>
-						<li><span class="nav-two opa" ui-sref="about"></span></li>
-						<li><span class="nav-three opa" ui-sref="case"></span></li>
-						<li><span class="nav-fore opa" ui-sref="hire"></span></li>
-						<li><span class="nav-five opa" ui-sref="insight"></span></li>		
-							</ul>
-							
-							<p class="control">
-								<span class="control-link"></span>
-							</p>
-						</div>
-					
+					</div>
+					<div class="nav-content">
+						<ul class="nav-btn">
+							<li><span class="nav-one" ui-sref="main"></span></li>
+							<li><span class="nav-two opa" ui-sref="about"></span></li>
+							<li><span class="nav-three opa" ui-sref="case"></span></li>
+							<li><span class="nav-fore opa" ui-sref="hire"></span></li>
+							<li><span class="nav-five opa" ui-sref="insight"></span></li>
+						</ul>
 
-				
-				
-				
-				<!---->
+						<p class="control">
+							<span class="control-link"></span>
+						</p>
+					</div>
+
 				</div>
 			</div>
 			<!--切换区-->
 			<div ui-view="" class="content-box">
-			    
-		  </div>
-		  
+
 			</div>
-     
-    
-		
-  	
-    <!--[if lte IE 8]>
+			<div class="next_btn">
+				<span class="next_bg"></span>
+				<div id="nextBtn_text">
+					<p id="next0Img" ui-sref="about" class="nextBtn_about"></p>
+					<p id="next1Img" ui-sref="case" class="nextBtn_case alike"></p>
+					<p id="next2Img" ui-sref="hire" class="nextBtn_hire alike"></p>
+					<p id="next3Img" ui-sref="insight" class="nextBtn_news alike"></p>
+					<p id="next4Img" ui-sref="main" class="nextBtn_top alike"></p>
+				</div>
+			</div>
+		</div>
+
+		<!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
+		<!-- Add your site or application content here -->
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
+		<!-- build:js(.) scripts/vendor.js -->
+		<!-- bower:js -->
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <script src="scripts/controllers/case.js"></script>
-        <script src="scripts/controllers/hire.js"></script>
-        <script src="scripts/controllers/company.js"></script>
-        <script src="scripts/controllers/insight.js"></script>
-        <!-- endbuild -->
-</body>
+		<!-- build:js({.tmp,app}) scripts/scripts.js -->
+		<script src="scripts/app.js"></script>
+		<script src="scripts/controllers/main.js"></script>
+		<script src="scripts/controllers/about.js"></script>
+		<script src="scripts/controllers/case.js"></script>
+		<script src="scripts/controllers/hire.js"></script>
+		<script src="scripts/controllers/company.js"></script>
+		<script src="scripts/controllers/insight.js"></script>		
+		<!-- endbuild -->
+	</body>
+
 </html>
