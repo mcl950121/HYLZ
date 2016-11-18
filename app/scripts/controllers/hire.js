@@ -38,8 +38,86 @@ angular.module('yoApp')
 			$scope.aa=false
 			$scope.bb=true
 		}
-	
 		
+		
+		var new_off=true;
+	    $('.arrow').click(function(){
+	    	if(new_off==true){
+	    		$('.hire_footer').animate({bottom: '-230px'}, "slow");
+	    		$('#arrow_down').css({
+	    			display:'none'
+	    		});
+	    		$('#arrow_up').css({
+	    			display:'block'
+	    		});
+	    		new_off=false;
+	    	}else{
+	    		$('.hire_footer').animate({bottom: '0px'}, "slow");
+	    		$('#arrow_down').css({
+	    			display:'block'
+	    		});
+	    		$('#arrow_up').css({
+	    			display:'none'
+	    		});
+	    		new_off=true;
+	    	}
+	    	
+	    })
+	    
+//	    $(function(){
+//	    	$(".footer_bg li").not(":first").hover(
+//			  function () {
+//			    $(this).addClass("active");
+//			    //alert($("this").length); //看看是否定位到了元素 如果值为0 那么表示未定位到
+//			  },
+//			  function () {
+//			    $(this).removeClass("active");
+//			  }
+//			);
+//	    })
+	   $scope.ee=true
+		$scope.c=function(){
+			$scope.cc=true
+			$scope.dd=false
+			$scope.ee=false
+			$scope.ff=false
+		}
+		
+		$scope.d=function(){
+			$scope.cc=false
+			$scope.dd=true
+			$scope.ee=false
+			$scope.ff=false
+		}
+		
+		$scope.e=function(){
+			$scope.cc=false
+			$scope.dd=false
+			$scope.ee=true
+			$scope.ff=false
+		}
+		
+		$scope.f=function(){
+			$scope.cc=false
+			$scope.dd=false
+			$scope.ee=false
+			$scope.ff=true
+		}
+		
+   
+// 		$('.job').click(function(){
+// 			$('.job_content').show();
+// 		})
+// 		
+// 		$('.city').click(function(){
+// 			$('.job_content').hide();
+// 		})
+// 		
+// 		$('.country').click(function(){
+// 			$('.job_content').hide();
+// 		})
+   
+   
    
   });
 

@@ -12,8 +12,8 @@ ul li{list-style: none;}
 .w-t1{width: 177px;height: 126px;margin-top: 4px;}
 .w-t2{width: 177px;height: 255px;margin-top: 4px;}
 .w-tu2{width: 360px;height: 515px;float: left;margin-left: 5px;}
-.w-t3{width: 360px;height: 252px;}
-.w-t4{width: 360px;height: 256px;margin-top: 8px;}
+.w-t3{width: 360px;height: 255px;}
+.w-t4{width: 360px;height: 256px;margin-top: 4px;}
 .w-tu3{width: 178px;height: 515px;float: left;margin-left:5px;}
 .w-t5{width: 178px;height: 126px;}
 .w-t6{width: 178px;height: 126px;margin-top: 4px;}
@@ -32,7 +32,16 @@ ul li{list-style: none;}
 .backgroundRed{position: relative;}
 .bgOpact{background: #bf5446;opacity: .8;
 	z-index: 1;position: absolute;left: 0;top: 0;width: 100%;height: 100%;display: none;}
-
+.kuang{width: 175px;height: 175px;border: 1px solid #fff;
+	   position: absolute;top: 39px;left: 88px;
+	  -webkit-transform: rotate(45deg);
+	  -moz-transform: rotate(45deg);
+	  -ms-transform: rotate(45deg);
+	  -o-transform: rotate(45deg);
+	   transform: rotate(45deg);
+	   display: none;
+	   z-index: 2;
+	   opacity: .6;}
 
 @-webkit-keyframes aaa {
 	0% {left: 25px;}
@@ -75,7 +84,6 @@ ul li{list-style: none;}
 } 
 
  .arrow1 {
-    display: block;
     width: 70px;
     height: 22px;
     position: absolute;
@@ -92,3 +100,12 @@ ul li{list-style: none;}
     border: 1px solid #fff;
     background-size: 15px 8px;
 }	
+#id1 {
+	width: 100%;
+	height: 662px;
+	background: rgba(255, 255, 255, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}

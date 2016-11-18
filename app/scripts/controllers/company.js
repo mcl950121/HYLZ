@@ -1,4 +1,15 @@
 
+'use strict';
+
+/**
+ * @ngdoc function
+ * @name yoApp.controller:MainCtrl
+ * @description
+ * # MainCtrl
+ * Controller of the yoApp
+ */
+angular.module('yoApp').controller('company', function () {
+
 	var t
 	function a() {
 		document.getElementById("t").style.display = "block";
@@ -52,5 +63,9 @@
 		document.getElementById("t11").style.display = "block";
 		clearInterval(t);
 	}
+	
+	
+});
+
 
 

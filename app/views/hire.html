@@ -13,8 +13,10 @@
 	 		<span class="entrance_r" ng-click="b('bb')" ng-class={tab_bg:bb}>校招入口</span>
 	 </div>
 	 
-	 <div ng-switch="jgr">
-		 <div class="hire_r" ng-switch-default>
+	 <div ng-switch="jgr"> <!--ng-switch 指令根据表达式显示
+	 	
+	 或隐藏对应的部分。-->
+		 <div class="hire_r" ng-switch-default><!-- ng-switch-when="aa"-->
 	 		<ul>
 	 			<li ng-repeat="i in data">
 	 				<span ng-click="isshow($index)" style="font-size: 16px;">{{i.nav}}</span>
@@ -46,13 +48,17 @@
 	 
 </div>
 <div class="hire_footer">
-	<ul>
-		<li class="arrow"><img src="../images/down_arrow.png"/></li>
-		<li>职位</li>
-		<li>城市</li>
-		<li class="now">全国</li>
-		<li><a ui-sref="company">更多</a></li>
+	<ul class="footer_bg">
+		<li class="arrow">
+			<img src="../images/down_arrow.png" id="arrow_down"/>
+			<img src="../images/down_arrow2.png"/ style="display: none;" id="arrow_up">
+		</li>
+		<li ng-click="c('cc')" ng-class={hire_bg:cc} class="job">职位</li>
+		<li ng-click="d('dd')" ng-class={hire_bg:dd} class="city">城市</li>
+		<li ng-click="e('ee')" ng-class={hire_bg:ee} class="country">全国</li>
+		<li ng-click="f('ff')" ng-class={hire_bg:ff}><a ui-sref="company">更多</a></li>
 	</ul>
+	<div class="job_content"></div>
 </div>
 </div>
 
