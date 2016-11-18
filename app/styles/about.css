@@ -16,13 +16,13 @@ div.ylogo {width:50%;height:515px;float:left;}
 .jr_1 span.jsp {float:left;width:33%;height:129px;cursor:pointer;border-bottom:1px solid #c9c9c9;}
 .jr_1 span img {width:100%;height:129px;display:block;}
 .ylogo ul li {float:left;width:33%;height:129px;cursor:pointer;border-bottom:1px solid #c9c9c9;}
-.ja_right {border-right:1px solid #c9c9c9;}
+.ja_rihgt {border-right:1px solid #c9c9c9;}
 .ylogo ul li.mei {border-bottom:0;}
-.ylogo ul li img{ -webkit-filter: grayscale(100%);filter: grayscale(100%);width:100%;height:129px;display:block;}
+.ylogo ul li img{ -webkit-filter: grayscale(100%);filter: grayscale(100%);width:100%;height:129px;display:none;}
 .ylogo ul li img:hover { -webkit-filter: grayscale(0); filter: grayscale(0);transition:0.8s all ease;}
 
-.yright {width:42%;height:515px;float:left;border-left:1px solid #c9c9c9;margin-left:7%;overflow:hidden;}
-.tcontent {width:90%;height:515px;margin-left:10%;float:left;}
+.yright {width:43%;height:515px;border-left:1px solid #c9c9c9;float:left;margin-left:6%;}
+.tcontent {width:92%;height:515px;margin-top:50px;margin-left:9%}
 .tcontent i {margin-top:15px;width:30%;height:auto;display:block;}
 .tcontent h2 {width:100%;height:60px;font-size:24px;color:#2d2f30;font-weight:300;line-height:60px;}
 .tcontent b {width:100%;height:40px;display:block;margin-top:10px;}
@@ -33,19 +33,20 @@ div.ylogo {width:50%;height:515px;float:left;}
 #jr-s li {width:100%;height:30px;margin-top:2px;display:block;cursor:pointer;}
 
 
-.jr-x {width:40px;height:166px;display:block;position:fixed;bottom:5px;}
+.jr-x {width:40px;height:166px;position:fixed;bottom:5px;}
 .jxia {width:57px;height:57px;border:1px solid #c9c9c9;border-right:0;cursor:pointer;}
-.jxia img {margin-top:20px;margin-left:19px;}
+.jxia img  {margin-top:20px;margin-left:19px;}
 .jxia:hover {background:#2d2f30;}
-.jkehu {width:57px;height:57px;border:1px solid #c9c9c9;border-right:0;border-top:0;font-size:14px;color:#939395;text-align:center;line-height:57px;cursor:pointer;}
+.jkehu {width:57px;height:57px;border:1px solid #c9c9c9;border-right:0;border-top:0;font-size:14px;color:#939395;text-align:center;line-height:57px;cursor:pointer;display:block;}
 .jkehu:hover {background:#2d2f30;color:#e3e3e3;}
-.jjituan {width:57px;height:57px;border-left:1px solid #c9c9c9;font-size:14px;color:#939395;text-align:center;line-height:57px;cursor:pointer;}
+.jkehu.active{background:#2d2f30;color:#fff;}
+.jjituan {width:57px;height:57px;border-left:1px solid #c9c9c9;font-size:14px;color:#939395;text-align:center;line-height:57px;cursor:pointer;display:block;}
 .jjituan:hover {background:#2d2f30;color:#e3e3e3;}
-.jye2,.jye3,.jye4 {width:90%;height:515px;margin-left:10%;}
-.jye2 li , .jye3 li , .jye4 li{cursor:pointer;width:14%;height:114px;float:left;border-right:1px solid #c9c9c9;border-bottom:1px solid #c9c9c9;}
-.jye2 li img ,.jye3 li img ,.jye4 li img {width:100%;height:114px;display:block; -webkit-filter: grayscale(100%);filter: grayscale(100%);}
+.jjituan.active{background:#2d2f30;color:#fff;}
+.jye2,.jye3,.jye4 {width:90%;height:515px;margin-left:10%;display:block;}
+.jye2 li , .jye3 li , .jye4 li{cursor:pointer;width:14%;height:114px;float:left;border-right:1px solid #c9c9c9;border-bottom:1px solid #c9c9c9;display:block;}
+.jye2 li img ,.jye3 li img ,.jye4 li img {width:100%;height:114px; -webkit-filter: grayscale(100%);filter: grayscale(100%);display:none;}
 .jye2 li img:hover , .jye3 li img:hover , .jye4 li img:hover{-webkit-filter: grayscale(0); filter: grayscale(0);transition:0.8s all ease;}
-
 
 
 
