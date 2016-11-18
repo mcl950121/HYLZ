@@ -105,17 +105,17 @@ angular.module('yoApp')
 		}
 		
    
-   		$('.job').click(function(){
-   			$('.job_content').show();
-   		})
-   		
-   		$('.city').click(function(){
-   			$('.job_content').hide();
-   		})
-   		
-   		$('.country').click(function(){
-   			$('.job_content').hide();
-   		})
+// 		$('.job').click(function(){
+// 			$('.job_content').show();
+// 		})
+// 		
+// 		$('.city').click(function(){
+// 			$('.job_content').hide();
+// 		})
+// 		
+// 		$('.country').click(function(){
+// 			$('.job_content').hide();
+// 		})
    
    
    
