@@ -441,17 +441,8 @@
 	background: rgba(88,89,90,0.8);    
 	/*-webkit-box-shadow: inset 0 0 6px rgba(88,89,90,0.8);*/
 }
-
 ::-webkit-scrollbar-thumb:window-inactive {        
 	background: rgba(255,0,0,0.4);
-
-#details {
-	width: 57%;
-	height: 529px;
-	position: relative;
-	overflow: auto;
-	top: 60px;
-	left: 293px;
 }
 #details_con {
 	width: 100%;
@@ -524,8 +515,6 @@
 	background: url(../images/sucai.png) -1997px 0px no-repeat;
 	overflow: hidden;
 	display: inline-block;
-	margin-left: 24px;
-	display:inline-block;
 }
 
 #global_title_text {
@@ -548,7 +537,6 @@
 	display: block;
 	background: url(../images/sucai.png) -803px -400px no-repeat;
 }
-
 
 /*缓存*/
 

@@ -75,9 +75,7 @@ angular.module('yoApp')
 		})
 
 		$('.delete').click(function() {
-
 			$('#covered').fadeOut(1000);
-
 		})
 
 		//自顶替滚动条效果

@@ -100,6 +100,8 @@ ul li{list-style: none;}
     border: 1px solid #fff;
     background-size: 15px 8px;
 }	
+/*进入详情*/
+
 #id1 {
 	width: 100%;
 	height: 662px;
@@ -108,4 +110,112 @@ ul li{list-style: none;}
 	top: 0;
 	left: 0;
 	z-index: 999;
+}
+.covered_con{
+	width: 55.5%;
+	height: 529px;
+	position: relative;	
+	top: 60px;
+	left: 22.25%;
+}
+#details_a {
+	width: 100%;
+	height: 100%;
+	position: absolute;	
+	top: 0;
+	left: 0;	
+	overflow: auto;	
+}
+#details_c {
+	width: 100%;
+	height: 2560px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.detCon_img {
+	width: 727.5px;
+	height: 516px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.detCon_img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.detCon_one {
+	width: 90%;
+	height: 2095px;
+	float: right;
+	background: #FFFFFF;
+	position: absolute;
+	top: 460px;
+	left: 10%;
+}
+
+.global_xq {
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #363636;
+}
+
+.global_xq div {
+	margin-top: 20px;
+}
+
+.global_xq div p:first-child {
+	margin-top: 26px;
+}
+
+.global_xq div p {
+	padding-left: 10px;
+	font-size: 12px;
+	font-family: arial;
+	color: #363636;
+}
+
+.delete {
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	top: 0;
+	right: -8%;
+	cursor: pointer;
+}
+
+.delete_img {
+	width: 100%;
+	height: 100%;
+	background: url(../images/sucai.png) -1997px 0px no-repeat;
+	overflow: hidden;
+	display: inline-block;
+}
+
+#global_title_t {
+	padding-right: 40px;
+	font-size: 24px;
+	color: #2D2F30;
+	font-family: "Microsoft Yahei", "Heiti SC", "Droid Sans", Arial;
+}
+
+#global_xq_con {
+	margin-top: 5px;
+	text-align: justify;
+	font-family: "Microsoft Yahei", "Heiti SC", "Droid Sans", Arial;
+}
+
+.xq_line {
+	width: 106px;
+	height: 4px;
+	overflow: hidden;
+	display: block;
+	background: url(../images/sucai.png) -803px -400px no-repeat;
 }
